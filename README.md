@@ -13,7 +13,7 @@ Before you can run this application, you'll need to install Python and several l
 Clone the repository:
 
 
-git clone https://github.com/your_username/website-legitimacy-checker.git
+git clone https://github.com/chizzy56/website-legitimacy-checker.git
 Navigate to the project directory:
 
 cd website-legitimacy-checker
