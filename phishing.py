@@ -8,7 +8,7 @@ import numpy as np
 # Load the data
 @st.cache_data
 def load_data():
-    data = pd.read_csv('C:/Users/MD/Downloads/data_new.csv')  # Replace with the actual path to your data file
+    data = pd.read_csv('data_new.csv')  # Replace with the actual path to your data file
     return data
 
 data = load_data()
@@ -39,7 +39,7 @@ def main():
 
     if page == 'Home':
         st.title('Welcome to the Website Legitimacy Checker')
-        st.image('C:/Users/MD/Downloads/krakenimages-376KN_ISplE-unsplash.jpg')
+        st.image('krakenimages-376KN_ISplE-unsplash.jpg')
         st.write('This application helps you to determine if a website is legitimate or a phishing website.')
         st.write('Use the sidebar to navigate to different sections of the app.')
     
@@ -61,14 +61,14 @@ def main():
             prediction = predict_website_legitimacy(features)
             if prediction == 0:
                 st.success('This website is legitimate.')
-                st.image('C:/Users/MD/Downloads/christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg')
+                st.image('christina-wocintechchat-com-KAULAzQwxzE-unsplash.jpg')
             else:
                 st.error('This website is a phishing website.')
-                st.image('C:/Users/MD/Downloads/matt-artz-YPd84QSltZ8-unsplash.jpg')
+                st.image('matt-artz-YPd84QSltZ8-unsplash.jpg')
 
     elif page == 'About':
         st.title('About')
-        st.image('C:/Users/MD/Downloads/jason-goodman-vbxyFxlgpjM-unsplash.jpg')
+        st.image('jason-goodman-vbxyFxlgpjM-unsplash.jpg')
         st.write('This application uses a Random Forest Classifier to predict the legitimacy of a website based on various features.')
         st.write('It was developed to help users identify potentially harmful websites.')
 
