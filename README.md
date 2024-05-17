@@ -1,5 +1,6 @@
 ## Website Legitimacy Checker
 The Website Legitimacy Checker is a web application designed to help users identify whether websites are legitimate or potential phishing threats. This application leverages the power of machine learning with a Random Forest Classifier, analyzing various website characteristics to make predictions.
+Visit: https://chioma.streamlit.app/   for the deployed app.
 
 ## Features
 ### Interactive Predictions: Input features of a website to get real-time predictions on its legitimacy.
@@ -13,7 +14,7 @@ Before you can run this application, you'll need to install Python and several l
 Clone the repository:
 
 
-git clone https://github.com/chizzy56/website-legitimacy-checker.git
+git clone https://github.com/chizzy56/cetm46.git 
 Navigate to the project directory:
 
 cd website-legitimacy-checker
@@ -42,3 +43,4 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+Visit: https://chioma.streamlit.app/   for the deployed app.
